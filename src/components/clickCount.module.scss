@@ -1,0 +1,21 @@
+.container {
+    background: #0586d1;
+    height: 100px;
+    margin: 0px;
+}
+.btns {
+    background: #a89f9f;
+    margin: 5px;
+    &:hover{
+        background: rgb(156, 153, 153);
+    }
+}
+
+.laskija {
+    height: 2px;
+    color: rgb(0, 0, 0);
+    font-family: helvetica;
+    margin-left: 32px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
