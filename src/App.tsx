@@ -6,7 +6,10 @@ import {
 } from 'react-router-dom';
 import React, { useState } from 'react'
 import ClickCount from './components/clickCount';
+//import { myGames } from './components/myGames';
 import styles from "./App.module.scss"
+import MyFirstComponent from './components/myFirstComponent';
+import MyFirstComponents from './components/myGit';
 
 const App: React.FC = () => {
   const [toggle, setToggle] = useState<boolean>(false)
@@ -15,27 +18,31 @@ const App: React.FC = () => {
     <Router basename='/portfolio'>
       <div>
       <p className= {styles.otsikko}> My Portfolio</p>
-      <button className= {styles.btncolor} onClick= {() => setToggle(!toggle)}>
-      MY Achievements
-      </button>
 
-      {
+      {/* {
         toggle
           ?(
             <div>
               <h1><a href="https://github.com/OLAVIV" target="_blank"><button className= {styles.achi}>My github profile</button></a></h1>
-              <h2><a href="https://github.com/alextoro306/SnakeFighters" target="_blank"><button className= {styles.achi}>Snake Fighters</button></a></h2>
             </div>
           )
           :null
           
-      }
-
-
+      } */}
+      
+      </div>
+      <div className={styles.navbar}>
+      <Link to='/home' className= {styles.home} >Home page</Link>
+      <Link to='mygames' className= {styles.games} >My games</Link>
+      <Link to='mygitprofile' className= {styles.git} > My github</Link>
+      <Switch>
+      <Route exact path='/mygames' component={MyFirstComponent}/>
+      <Route exact path='/mygitprofile' component={MyFirstComponents}/>
+      </Switch>
       </div>
     </Router>
-
   )
 }
 
 export default App
+
