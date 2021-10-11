@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.otsikko {
+    margin-top: 0cm;
+    margin-bottom: 2px;
+    margin-left: 640px;
+    font-family: Gill Sans;
+    font-size: 3cm;
+    color: darkmagenta;
+}
+
+.btncolor {
+    color: darkmagenta;
+    margin-left: 850px;
+    margin-top: 0px;
+    font-size: 0.5cm;
+}
+
+.achi {
+    color: darkmagenta;
+    font-family: Gill Sans;
+    font-size: 0.6cm;
+}
+
