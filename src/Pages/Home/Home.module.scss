@@ -13,19 +13,32 @@ body {
 .otsikko {
     margin-top: 0cm;
     margin-bottom: 5px;
-    margin-left: 640px;
     font-family: Gill Sans;
-    font-size: 3cm;
+    font-size: 6vw;
     color: darkmagenta;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
+    @media only screen and (max-width: 1700px){
+        font-size: 9vw;
+    }
+    @media only screen and (max-width: 850px){
+        font-size: 12vw;
+    }
+    @media only screen and (max-width: 450px){
+        font-size: 16vw;
+    }
+    @media only screen and (max-width: 395px){
+        font-size: 16vw;
+    }
 }
 
 
 .button {
     color: white;
     font-family: Gill Sans;
-    font-size: 0.6cm;
+    font-size: 1.1vw;
     background-color: darkmagenta;
     text-decoration: none;
     margin-left: 818px;
@@ -33,6 +46,8 @@ body {
     margin-top: 6px;
     padding-left: 70px;
     padding-right: 20px;
+
+
 
 }
 

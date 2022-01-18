@@ -3,28 +3,7 @@
     flex-direction: column;
 }
 
-.otsikko {
-    margin-top: 0cm;
-    margin-bottom: 5px;
-    font-family: Gill Sans;
-    font-size: 6vw;
-    color: darkmagenta;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-    @media only screen and (max-width: 1700px){
-        font-size: 9vw;
-    }
-    @media only screen and (max-width: 850px){
-        font-size: 12vw;
-    }
-    @media only screen and (max-width: 450px){
-        font-size: 16vw;
-    }
-}
-
-.stiili{
+.button {
     color: white;
     font-family: Gill Sans;
     font-size: 1.1vw;
@@ -34,6 +13,7 @@
     margin-right: 878px;
     margin-top: 6px;
     text-align: center;
+    min-width: 60px;
 
     @media only screen and (max-width: 1700px){
         margin-left: 400px;
@@ -41,17 +21,23 @@
         margin-top: 3px;
         font-size: 2vw;
     }
-    @media only screen and (max-width: 1000px){
+    @media only screen and (max-width: 920px){
         margin-left: 200px;
         margin-right: 200px;
         margin-top: 3px;
         font-size: 2vw;
     }
-    @media only screen and (max-width: 500px){
-        margin-left: 150px;
-        margin-right: 150px;
+    @media only screen and (max-width: 450px){
+        margin-left: 165px;
+        margin-right: 165px;
         margin-top: 3px;
-        font-size: 2.9vw;
+        font-size: 3.6vw;
+    }
+    @media only screen and (max-width: 399px){
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-top: 3px;
+        font-size: 3vw;
     }
     @media only screen and (max-width: 285px){
         margin-left: 100px;
@@ -59,4 +45,17 @@
         margin-top: 3px;
         font-size: 3.1vw;
     }
+}
+
+.snakee {
+    color: white;
+    font-family: Gill Sans;
+    font-size: 1.1vw;
+    background-color: darkmagenta;
+    text-decoration: none;
+    margin-left: 818px;
+    margin-right: 878px;
+    margin-top: 6px;
+    text-align: center;
+    min-width: 60px;
 }
