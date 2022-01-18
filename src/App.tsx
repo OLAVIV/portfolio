@@ -10,36 +10,19 @@ import ClickCount from './components/clickCount';
 import styles from "./App.module.scss"
 import MyFirstComponent from './components/myFirstComponent';
 import MyFirstComponents from './components/myGit';
-
+import Home from './Pages/Home/Home';
+import Games from './Pages/Games/Games';
+import WallHoppa from './Pages/Games/WallHoppa';
 const App: React.FC = () => {
   const [toggle, setToggle] = useState<boolean>(false)
   return (
-    // Important! add your repositoryname to basename
-    <Router basename='/portfolio'>
-      <div>
-      <p className= {styles.otsikko}> My Portfolio</p>
-
-      {/* {
-        toggle
-          ?(
-            <div>
-              <h1><a href="https://github.com/OLAVIV" target="_blank"><button className= {styles.achi}>My github profile</button></a></h1>
-            </div>
-          )
-          :null
-          
-      } */}
+    <Router>
       
-      </div>
-      <div className={styles.navbar}>
-      <Link to='/home' className= {styles.home} >Home page</Link>
-      <Link to='mygames' className= {styles.games} >My games</Link>
-      <Link to='mygitprofile' className= {styles.git} > My github</Link>
       <Switch>
-      <Route exact path='/mygames' component={MyFirstComponent}/>
-      <Route exact path='/mygitprofile' component={MyFirstComponents}/>
+        <Route exact path="/" component= { Home } />
+        <Route exact path="/mygames" component= { Games } />
+        <Route exact path="/wallhopperbuilds" component= { WallHoppa } />
       </Switch>
-      </div>
     </Router>
   )
 }
