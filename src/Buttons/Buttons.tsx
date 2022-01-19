@@ -10,8 +10,10 @@ type ButtonsProps = {
 const Buttons: React.FC<ButtonsProps> = () => {
   return (
     <div className={styles.container}>
-      <Link to='mygames' className= {styles.button} >My games</Link>
+      <Link to='mygames' className= {styles.button} >My Games</Link>
       <a href="https://github.com/OLAVIV" target="_blank" rel="noreferrer" className={styles.button}>My Github</a>
+      <Link to='aboutme' className= {styles.button} >About Me</Link>
+      <Link to='mycv' className= {styles.button} >My CV</Link>
     </div>
   )
 }
