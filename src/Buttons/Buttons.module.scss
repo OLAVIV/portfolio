@@ -1,62 +1,72 @@
 .container {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
-.button {
-    color: white;
-    font-family: monospace;
-    font-size: 1.1vw;
-    background-color: rgb(29, 28, 28);
-    text-decoration: none;
-    margin-left: 818px;
-    margin-right: 878px;
-    margin-top: 6px;
-    text-align: center;
-    min-width: 60px;
+// .button {
+//     color: white;
+//     font-family: monospace;
+//     font-size: 1.1vw;
+//     background-color: rgb(29, 28, 28);
+//     text-decoration: none;
+//     margin-left: 818px;
+//     margin-right: 878px;
+//     margin-top: 6px;
+//     text-align: center;
+//     min-width: 60px;
 
-    @media only screen and (max-width: 1700px){
-        margin-left: 400px;
-        margin-right: 400px;
-        margin-top: 3px;
-        font-size: 2vw;
-    }
-    @media only screen and (max-width: 920px){
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 3px;
-        font-size: 2vw;
-    }
-    @media only screen and (max-width: 450px){
-        margin-left: 165px;
-        margin-right: 165px;
-        margin-top: 3px;
-        font-size: 3.6vw;
-    }
-    @media only screen and (max-width: 399px){
-        margin-left: 165px;
-        margin-right: 165px;
-        margin-top: 3px;
-        font-size: 3vw;
-    }
-    @media only screen and (max-width: 285px){
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 3px;
-        font-size: 3.1vw;
-    }
+//     @media only screen and (max-width: 1700px){
+//         margin-left: 400px;
+//         margin-right: 400px;
+//         margin-top: 3px;
+//         font-size: 2vw;
+//     }
+//     @media only screen and (max-width: 920px){
+//         margin-left: 200px;
+//         margin-right: 200px;
+//         margin-top: 3px;
+//         font-size: 2vw;
+//     }
+//     @media only screen and (max-width: 450px){
+//         margin-left: 165px;
+//         margin-right: 165px;
+//         margin-top: 3px;
+//         font-size: 3.6vw;
+//     }
+//     @media only screen and (max-width: 399px){
+//         margin-left: 165px;
+//         margin-right: 165px;
+//         margin-top: 3px;
+//         font-size: 3vw;
+//     }
+//     @media only screen and (max-width: 285px){
+//         margin-left: 100px;
+//         margin-right: 100px;
+//         margin-top: 3px;
+//         font-size: 3.1vw;
+//     }
+// }
+// }
+.button{
+    // padding: 2px;
+    // display: flex;
+    // text-align: center;
+    // color: white;
+    // font-family: monospace;
+    // background-color: rgb(29, 28, 28);
+    // margin-top: 4px;
+    // width: 60px
+    font-size: 1.5vw;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    color: rgb(0, 0, 0);
 }
-
-.snakee {
+.button:hover {
     color: white;
-    font-family: monospace;
-    font-size: 1.1vw;
-    background-color: rgb(29, 28, 28);
-    text-decoration: none;
-    margin-left: 818px;
-    margin-right: 878px;
-    margin-top: 6px;
-    text-align: center;
-    min-width: 60px;
-
+    background-color: black
 }

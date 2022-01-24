@@ -8,7 +8,7 @@ type GamesProps = {
 const Games: React.FC<GamesProps> = () => {
   return (
     <div className={styles.container}>
-            <p className= {styles.otsikko}> My Games</p>
+            <p className= {styles.otsikko}> My Portfolio</p>
             <a href="https://github.com/alextoro306/SnakeFighters" target="_blank" rel="noreferrer" className={styles.games}>Snake Fighters</a>
             <Link to='wallhopperbuilds' className= {styles.games} >Wall Hopper</Link>
             <a href="https://play.unity.com/mg/other/webgl-builds-89332" target="_blank" rel="noreferrer" className={styles.games}>Lego Game</a>
