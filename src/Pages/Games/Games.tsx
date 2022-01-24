@@ -6,6 +6,7 @@ type GamesProps = {
 }
 
 const Games: React.FC<GamesProps> = () => {
+  document.title="My Games"
   return (
     <div className={styles.container}>
             <p className= {styles.otsikko}> My Portfolio</p>

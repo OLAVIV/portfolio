@@ -56,6 +56,9 @@
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
+    @media only screen and (max-width: 500px){
+        font-size: 6vw;
+    }
 }
 .games:hover {
     color: white;
@@ -72,13 +75,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    // @media only screen and (max-width: 1700px){
-    //     font-size: 9vw;
-    // }
-    // @media only screen and (max-width: 850px){
-    //     font-size: 12vw;
-    // }
-    // @media only screen and (max-width: 450px){
-    //     font-size: 16vw;
-    // }
+    @media only screen and (max-width: 500px){
+        font-size: 12vw;
+    }
 }

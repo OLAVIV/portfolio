@@ -6,6 +6,7 @@ type MyCvProps = {
 }
 
 const MyCv: React.FC<MyCvProps> = () => {
+  document.title="My CV"
   return (
     <div className={styles.container}>
         <p className={styles.otsikko}>My Portfolio</p>

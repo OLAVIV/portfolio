@@ -13,19 +13,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
-    // @media only screen and (max-width: 1700px){
-    //     font-size: 9vw;
-    // }
-    // @media only screen and (max-width: 850px){
-    //     font-size: 12vw;
-    // }
-    // @media only screen and (max-width: 450px){
-    //     font-size: 16vw;
-    // }
-    // @media only screen and (max-width: 395px){
-    //     font-size: 16vw;
-    // }
+    @media only screen and (max-width: 500px){
+        font-size: 12vw;
+    }
 }
 
 .anchor {
@@ -80,9 +70,10 @@
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
+    @media only screen and (max-width: 500px){
+        font-size: 6vw;
     }
-
-
+}
     .anchor:hover {
         color: white;
         background-color: black
@@ -99,6 +90,9 @@
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
+        @media only screen and (max-width: 500px){
+            font-size: 6vw;
+        }
         // @media only screen and (max-width: 1700px){
         //     margin-left: 400px;
         //     margin-right: 400px;

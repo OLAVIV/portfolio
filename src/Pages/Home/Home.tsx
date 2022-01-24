@@ -7,6 +7,7 @@ type HomeProps = {
 }
 
 const Home: React.FC<HomeProps> = () => {
+  document.title="Home"
   return (
       <div>
 <div>

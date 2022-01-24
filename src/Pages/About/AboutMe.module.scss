@@ -14,20 +14,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    // text-align: center;
-
-    // @media only screen and (max-width: 1700px){
-    //     font-size: 9vw;
-    // }
-    // @media only screen and (max-width: 850px){
-    //     font-size: 12vw;
-    // }
-    // @media only screen and (max-width: 450px){
-    //     font-size: 16vw;
-    // }
-    // @media only screen and (max-width: 395px){
-    //     font-size: 16vw;
-    // }
+    @media only screen and (max-width: 500px){
+        font-size: 12vw;
+    }
 }
 .aboutme {
     margin-top: 0cm;
@@ -38,7 +27,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
+        @media only screen and (max-width: 450px){
+        font-size: 5vw;
+    }
     
     // @media only screen and (max-width: 1700px){
     //     margin-left: 400px;
@@ -97,6 +88,9 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    @media only screen and (max-width: 500px){
+        font-size: 6vw;
+    }
     // @media only screen and (max-width: 1700px){
     //     margin-left: 400px;
     //     margin-right: 400px;
