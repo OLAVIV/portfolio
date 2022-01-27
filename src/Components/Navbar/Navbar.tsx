@@ -2,7 +2,6 @@ import React from 'react'
 import styles from "./Navbar.module.scss"
 import Buttons from "../../Buttons/Buttons"
 import { useDarkmodeContext } from '../../Components/Context/darkmodeContextProvider'
-import Darkmode from '../DarkMode/Darkmode'
 
 type NavbarProps = {
 

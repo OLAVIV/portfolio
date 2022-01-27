@@ -7,7 +7,7 @@ type AboutMeProps = {
 }
 
 const AboutMe: React.FC<AboutMeProps> = () => {
-  const { useDarkmode, setUseDarkmode } = useDarkmodeContext();
+  const { useDarkmode } = useDarkmodeContext();
   document.title="About Me"
   return (
     <div className={ useDarkmode ? styles.dark : styles.light}>

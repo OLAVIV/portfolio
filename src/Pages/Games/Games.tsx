@@ -7,7 +7,7 @@ type GamesProps = {
 }
 
 const Games: React.FC<GamesProps> = () => {
-  const { useDarkmode, setUseDarkmode } = useDarkmodeContext();
+  const { useDarkmode } = useDarkmodeContext();
   document.title="My Games"
   return (
     <div className={ useDarkmode ? styles.dark : styles.light}>

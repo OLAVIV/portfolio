@@ -7,7 +7,7 @@ type WallHoppaProps = {
 }
 
 const WallHoppa: React.FC<WallHoppaProps> = () => {
-  const { useDarkmode, setUseDarkmode } = useDarkmodeContext();
+  const { useDarkmode } = useDarkmodeContext();
   return (
     <div className={ useDarkmode ? styles.dark : styles.light}>
         <div className={styles.container}>

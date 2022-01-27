@@ -1,5 +1,4 @@
 import React from 'react'
-import Buttons from '../../Buttons/Buttons'
 import { useDarkmodeContext } from '../Context/darkmodeContextProvider'
 import styles from "./Darkmode.module.scss"
 

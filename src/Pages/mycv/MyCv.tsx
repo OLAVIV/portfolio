@@ -7,7 +7,7 @@ type MyCvProps = {
 }
 
 const MyCv: React.FC<MyCvProps> = () => {
-  const { useDarkmode, setUseDarkmode } = useDarkmodeContext();
+  const { useDarkmode } = useDarkmodeContext();
   document.title="My CV"
   return (
     <div className={ useDarkmode ? styles.dark : styles.light}>
