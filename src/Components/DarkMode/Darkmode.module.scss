@@ -1,43 +1,45 @@
-.container {
-    text-align: center;
-}
-
 .buttondark{
     font-size: 1.5vw;
     text-decoration: none;
+    font-family: Gill Sans;
     display: inline-block;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     width: 200px;
     text-align: center;
     border-radius: 0.5rem;
-    border-width: 2px;
+    border-width: 0px;
     color: rgb(233, 240, 243);
+    background-color: rgb(20, 19, 19);
     @media only screen and (max-width: 450px){
     font-size: 6vw;
 }
 }
 .buttonlight:hover {
+    background-color: black;
     color: white;
-    background-color: black
 }
-
+.buttons{
+    display: inline-block;
+}
 .buttonlight{
     font-size: 1.5vw;
     text-decoration: none;
+    font-family: Gill Sans;
     display: inline-block;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     width: 200px;
     text-align: center;
     border-radius: 0.5rem;
-    border-width: 2px;
-    color: rgb(20, 19, 19);
+    border-width: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 240, 243);
     @media only screen and (max-width: 450px){
     font-size: 6vw;
 }
 }
 .buttondark:hover {
-    color: rgb(20, 19, 19);
     background-color: rgb(233, 240, 243);
+    color: rgb(0, 0, 0);
 }

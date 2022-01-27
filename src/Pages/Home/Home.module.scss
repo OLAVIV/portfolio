@@ -1,40 +1,11 @@
-body {
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    display: flex;
-    background-color: rgb(233, 240, 243);
-  
-}
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.otsikko {
-    margin-top: 0cm;
-    margin-bottom: 5px;
-    font-family: Gill Sans;
-    font-size: 6vw;
-    color: rgb(29, 28, 28);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    @media only screen and (max-width: 500px){
-        font-size: 12vw;
+.dark{
+    background-color: rgb(20, 19, 19);
+    color: rgb(233, 240, 243);
+    height: 100vh;
     }
-}
-
-.otsikkoo {
-    margin-top: 0cm;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    font-family: Gill Sans;
-    font-size: 0.4cm;
+.light{
+    background-color:rgb(233, 240, 243);
     color: black;
-    display: flex;
-    flex-direction: column;
-}
+    height: 100vh;
+    }

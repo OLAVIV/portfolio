@@ -1,23 +1,17 @@
 import React from 'react'
-import styles from "./Home.module.scss"
-import Buttons from "../../Buttons/Buttons"
-
+import { useDarkmodeContext } from '../../Components/Context/darkmodeContextProvider';
+import styles from './Home.module.scss'
+import Darkmode from '../../Components/DarkMode/Darkmode'
 type HomeProps = {
 
 }
 
 const Home: React.FC<HomeProps> = () => {
-  document.title="Home"
+  const { useDarkmode } = useDarkmodeContext();
   return (
-      <div>
-<div>
-      <p className= {styles.otsikko}> My Portfolio</p>
+    <div className={ useDarkmode ? styles.dark : styles.light} >
       
-      </div>
-      <div className={styles.container}>
-          <Buttons />
-      </div>
-      </div>
+    </div>
   )
 }
 
