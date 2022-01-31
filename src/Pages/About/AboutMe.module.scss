@@ -103,3 +103,11 @@
     color: rgb(233, 240, 243);
     background-color: black;
 }
+.maps{
+    width: 420px;
+    margin: auto;
+    @media only screen and (max-width: 500px){
+        width: 412px;
+        margin: auto;
+    }
+}

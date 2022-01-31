@@ -27,7 +27,6 @@ body {
     margin-bottom: 5px;
     font-family: Gill Sans;
     font-size: 6vw;
-    // color: rgb(29, 28, 28);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -35,6 +34,7 @@ body {
     margin-right: auto;
     @media only screen and (max-width: 500px){
         font-size: 12vw;
+        font-family: Gill Sans;
     }
 }
 
