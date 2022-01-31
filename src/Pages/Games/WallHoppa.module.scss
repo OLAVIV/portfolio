@@ -10,6 +10,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    transition: 500ms ease-in-out;
     @media only screen and (max-width: 500px){
         font-size: 12vw;
     }
@@ -18,11 +19,13 @@
     background-color: rgb(20, 19, 19);
     color: rgb(233, 240, 243);
     height: 100vh;
+    transition: 500ms ease-in-out;
 }
 .light{
     background-color:rgb(233, 240, 243);
     color: black;
     height: 100vh;
+    transition: 500ms ease-in-out;
 }
 
 .stiilidark{
