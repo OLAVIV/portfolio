@@ -44,7 +44,17 @@ body {
     margin-left: 0px;
     font-family: Gill Sans;
     font-size: 0.4cm;
-    // color: black;
     display: flex;
     flex-direction: column;
+}
+.otsikkoimage{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    @media only screen and (max-width: 500px){
+        font-size: 12vw;
+        font-family: Gill Sans;
+    }
 }

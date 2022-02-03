@@ -12,8 +12,8 @@ const Navbar: React.FC<NavbarProps> = () => {
   document.title="Home"
   return (
     <div className={ useDarkmode ? styles.dark : styles.light} >
-      <div>
-        <p className={styles.otsikko}> My Portfolio</p>
+      <div className={styles.otsikkoimage}>
+        <p className={styles.otsikko}>My Portfolio</p>
       </div>
       <div className={styles.container}>
         <Buttons />

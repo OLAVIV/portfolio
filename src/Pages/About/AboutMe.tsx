@@ -14,7 +14,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         <div>
             <p className={useDarkmode ? styles.aboutmedark : styles.aboutmelight}>Hi, my name is Olavi and I am an information and communications (ICT) student from Vantaa Finland.</p>
             <p className={useDarkmode ? styles.aboutmedark : styles.aboutmelight}>I am currently studying at Varia Myyrmäki, I've studied for about one and a half years by now.</p>
-            <p className={useDarkmode ? styles.aboutmedark : styles.aboutmelight}>The things i've learnt are the following: Basics of Java, JavaScript, TypeScript, React, CSS and SCSS</p>
+            <p className={useDarkmode ? styles.aboutmedark : styles.aboutmelight}>The things I've learnt are the following: Basics of Java, JavaScript, TypeScript, React, CSS and SCSS</p>
             <p className={useDarkmode ? styles.aboutmedark : styles.aboutmelight}>I've studied the basics of Unity, and C# scripting for Unity quite thoroughly, but there is always something new to learn.</p>
             <div className="mapouter">
               <div className={styles.maps}>
