@@ -14,6 +14,7 @@ import { useDarkmodeContext } from './Components/Context/darkmodeContextProvider
 import Home from './Pages/Home/Home';
 import NotFound from './Pages/Notfound/NotFound';
 
+
 const App: React.FC = () => {
   const { useDarkmode } = useDarkmodeContext();
   return (

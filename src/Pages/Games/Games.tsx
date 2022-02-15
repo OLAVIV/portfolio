@@ -11,7 +11,6 @@ const Games: React.FC<GamesProps> = () => {
   document.title="My Games"
   return (
     <div className={ useDarkmode ? styles.dark : styles.light}>
-            {/* <p className= {styles.otsikko}> My Portfolio</p> */}
             <a href="https://github.com/alextoro306/SnakeFighters" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Snake Fighters</a>
             <Link to='wallhopperbuilds' className= {useDarkmode ? styles.gamesdark : styles.gameslight} >Wall Hopper</Link>
             <a href="https://play.unity.com/mg/other/webgl-builds-89332" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Lego Game</a>

@@ -18,6 +18,9 @@ const Home: React.FC<HomeProps> = () => {
       <img src={csharp} alt='csharp' />
       <img src={typescript} alt='typescript'/>
       <img src={unity} alt='unity' />
+      <p className={useDarkmode ? styles.ddark : styles.llight} >Contact me ‏‏‎ ‎‏‏‎ ‎| </p>
+      <a href="https://twitter.com/kurki_olavi" target="_blank" rel="noreferrer" className={useDarkmode ? styles.ddark : styles.llight}>twitter ‏‏‎ ‎|</a>
+      <a href="https://www.instagram.com/olavikurki_/" target="_blank" rel="noreferrer" className={useDarkmode ? styles.ddark : styles.llight}>instagram ‏‏‎ ‎|</a>
       </div>
     </div>
   )

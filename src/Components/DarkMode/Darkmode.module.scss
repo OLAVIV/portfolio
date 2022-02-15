@@ -1,7 +1,7 @@
 .buttondark{
     font-size: 1.5vw;
     text-decoration: none;
-    font-family: Gill Sans;
+    font-family: "Montserrat", sans-serif;
     display: inline-block;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
@@ -14,7 +14,6 @@
     transition: 500ms ease-in-out;
     @media only screen and (max-width: 450px){
     font-size: 6vw;
-    font-family: Gill Sans;
 }
 }
 .buttonlight:hover {
@@ -27,7 +26,7 @@
 .buttonlight{
     font-size: 1.5vw;
     text-decoration: none;
-    font-family: Gill Sans;
+    font-family: "Montserrat", sans-serif;
     display: inline-block;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
@@ -40,7 +39,6 @@
     background-color: rgb(233, 240, 243);
     @media only screen and (max-width: 450px){
     font-size: 6vw;
-    font-family: Gill Sans;
 }
 }
 .buttondark:hover {

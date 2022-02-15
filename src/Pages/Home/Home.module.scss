@@ -25,3 +25,11 @@
     }
     transition: all .3s ease-out;
 }
+.ddark,
+.llight{
+    text-decoration: none;
+    color: rgb(80, 170, 223);
+    font-size: 2.5vh;
+    display: inline-block;
+    padding-left: 15px;
+}
