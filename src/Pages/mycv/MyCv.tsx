@@ -39,7 +39,7 @@ const MyCv: React.FC<MyCvProps> = () => {
            </li>
            <li>
              <div className={styles.data}>
-              olavi.kurki2004@gmail.com
+              olavi.kurki2004(at)gmail.com
              </div>
            </li>
            <li>

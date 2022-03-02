@@ -21,13 +21,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Righteous&display=swap");
 .otsikkodark {
     margin-top: 0cm;
     color: white;
     margin-bottom: 5px;
-    font-family: Gill Sans;
-    font-size: 6vw;
+    font-size: 5vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -35,17 +34,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     transition: 500ms ease-in-out;
+    font-family: 'Libre Baskerville', serif;
     @media only screen and (max-width: 500px){
         font-size: 12vw;
-        font-family: Gill Sans;
     }
 }
 .otsikkolight {
     margin-top: 0cm;
     color: rgb(0, 0, 0);
     margin-bottom: 5px;
-    font-family: Gill Sans;
-    font-size: 6vw;
+    font-size: 5vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -53,18 +51,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     transition: 500ms ease-in-out;
+    font-family: 'Libre Baskerville', serif;
     @media only screen and (max-width: 500px){
         font-size: 12vw;
-        font-family: Gill Sans;
     }
 }
 
-.otsikkoo {
-    margin-top: 0cm;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    font-family: Gill Sans;
-    font-size: 0.4cm;
-    display: flex;
-    flex-direction: column;
-}

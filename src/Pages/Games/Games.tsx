@@ -15,7 +15,7 @@ const Games: React.FC<GamesProps> = () => {
             <Link to='wallhopperbuilds' className= {useDarkmode ? styles.gamesdark : styles.gameslight} >Wall Hopper</Link>
             <a href="https://play.unity.com/mg/other/webgl-builds-89332" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Lego Game</a>
             <a href="https://play.unity.com/mg/other/rollaball-68" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Rollaball 1.0</a>
-            <a href="https://play.unity.com/u/olvikurki" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Rollaball 2.0</a>
+            <a href="https://play.unity.com/mg/other/rollaball2-0" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Rollaball 2.0</a>
             <a href="https://play.unity.com/mg/other/jump-parkour" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Fence Jumper</a>
             <a href="https://play.unity.com/mg/other/ilmapallopeli" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Balloon Popper</a>
             <a href="https://play.unity.com/mg/other/unit-5-qa" target="_blank" rel="noreferrer" className={useDarkmode ? styles.gamesdark : styles.gameslight}>Boyncy Balls</a>
