@@ -8,6 +8,10 @@
     height: 130vh;
     transition: 500ms ease-in-out;
     padding-top: 8px;
+    @media only screen and (max-width: 450px){
+      height: 185vh;
+    }
+    
 }
 .light{
     background-color:rgb(233, 240, 243);
@@ -15,6 +19,10 @@
     height: 130vh;
     transition: 500ms ease-in-out;
     padding-top: 8px;
+    @media only screen and (max-width: 450px){
+      height: 185vh;
+    }
+    
 }
 .otsikkolight {
     margin-top: 0cm;
@@ -135,6 +143,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
+
 .bold {
   font-weight: 700;
   font-size: 23px;
@@ -357,4 +366,3 @@
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
-        

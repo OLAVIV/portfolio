@@ -11,8 +11,12 @@
     color: rgb(233, 240, 243);
     background-color: rgb(20, 19, 19);
     transition: 500ms ease-in-out;
+    @media only screen and (max-width: 1000px){
+    font-size: 2vw;
+    width: 130px;
+}
     @media only screen and (max-width: 450px){
-    font-size: 4vw;
+    font-size: 6vw;
 }
 }
 .buttonlight:hover {
@@ -40,8 +44,12 @@
     transition: 500ms ease-in-out;
     color: rgb(0, 0, 0);
     background-color: rgb(233, 240, 243);
+    @media only screen and (max-width: 1000px){
+    font-size: 2vw;
+    width: 130px;
+}
     @media only screen and (max-width: 450px){
-    font-size: 4vw;
+    font-size: 6vw;
 }
 }
 .buttondark:hover {
