@@ -9,9 +9,9 @@ type NavbarProps = {
 
 const Navbar: React.FC<NavbarProps> = () => {
   const { useDarkmode } = useDarkmodeContext();
-  document.title="Home"
+  document.title = "Home"
   return (
-    <div className={ useDarkmode ? styles.dark : styles.light} >
+    <div className={useDarkmode ? styles.dark : styles.light} >
       <div className={styles.otsikkoimage}>
         <a href="https://olavi.xyz" rel="noreferrer" className={useDarkmode ? styles.otsikkodark : styles.otsikkolight}>My Portfolio</a>
       </div>

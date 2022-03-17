@@ -1,4 +1,4 @@
-.buttondark{
+.buttondark {
     font-size: 1.5vw;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -11,27 +11,28 @@
     color: rgb(233, 240, 243);
     background-color: rgb(20, 19, 19);
     transition: 500ms ease-in-out;
-    @media only screen and (max-width: 1000px){
-    font-size: 2vw;
-    width: 130px;
-}
-    @media only screen and (max-width: 450px){
-    font-size: 6vw;
-}
+    @media only screen and (max-width: 1000px) {
+        font-size: 2vw;
+        width: 130px;
+    }
+    @media only screen and (max-width: 450px) {
+        font-size: 6vw;
+        width: 150px;
+    }
 }
 .buttonlight:hover {
     background-color: black;
     color: white;
 }
-.buttons{
+.buttons {
     display: inline-block;
-    @media only screen and (max-width: 450px){
+    @media only screen and (max-width: 450px) {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
-.buttonlight{
+.buttonlight {
     font-size: 1.5vw;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -44,13 +45,14 @@
     transition: 500ms ease-in-out;
     color: rgb(0, 0, 0);
     background-color: rgb(233, 240, 243);
-    @media only screen and (max-width: 1000px){
-    font-size: 2vw;
-    width: 130px;
-}
-    @media only screen and (max-width: 450px){
-    font-size: 6vw;
-}
+    @media only screen and (max-width: 1000px) {
+        font-size: 2vw;
+        width: 130px;
+    }
+    @media only screen and (max-width: 450px) {
+        font-size: 6vw;
+        width: 150px;
+    }
 }
 .buttondark:hover {
     background-color: rgb(233, 240, 243);
