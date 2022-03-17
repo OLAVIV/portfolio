@@ -18,7 +18,7 @@ const MySkills: React.FC<MySkillsProps> = () => {
                         <div className={styles.skills}>
                             <div className={styles.details}>
                                 <span>React TypeScript SCSS</span>
-                                <span>90%</span>
+                                <span>75%</span>
                             </div>
                             <div className={styles.bar}>
                                 <div className={styles.htmlbar} />
@@ -27,7 +27,7 @@ const MySkills: React.FC<MySkillsProps> = () => {
                         <div className={styles.skills}>
                             <div className={styles.details}>
                                 <span>Unity C#</span>
-                                <span>90%</span>
+                                <span>80%</span>
                             </div>
                             <div className={styles.bar}>
                                 <div className={styles.cssbar} />

@@ -25,7 +25,7 @@ const MyCv: React.FC<MyCvProps> = () => {
       <div className={useDarkmode ? styles.mod3dark : styles.mod3light}>
         <div>
           I have some work experience from 2018 and 2019, <br />
-          I was completing my primary school tet at Schneider Electric<br />
+          I was completing my primary school work education at Schneider Electric<br />
           The company I was working for  was centered around tech and software.
         </div>
       </div>
