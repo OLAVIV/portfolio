@@ -46,7 +46,7 @@
     font-size: 4vw;
   }
   @media only screen and (max-width: 500px) {
-    font-size: 6vw;
+    display: none;
   }
 }
 .anchorlight:hover {
@@ -73,7 +73,7 @@
     font-size: 4vw;
   }
   @media only screen and (max-width: 500px) {
-    font-size: 6vw;
+    display: none;
   }
 }
 .anchordark:hover {
@@ -89,7 +89,9 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  overflow: hidden;
+  @media only screen and (min-width: 1000px) {
+    overflow: hidden;
+  }
 }
 .mod1light {
   font-family: "Righteous", cursive;
@@ -100,6 +102,9 @@
   @media only screen and (max-width: 1000px) {
     font-size: 4vw;
   }
+  @media only screen and (max-width: 500px) {
+    font-size: 9vw;
+  }
 }
 .mod1dark {
   font-family: "Righteous", cursive;
@@ -109,6 +114,9 @@
   transition: 500ms ease-in-out;
   @media only screen and (max-width: 1000px) {
     font-size: 4vw;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 9vw;
   }
 }
 .mod2light {
@@ -136,6 +144,9 @@
   width: 50%;
   padding: 10px;
   transition: 500ms ease-in-out;
+  @media only screen and (max-width: 500px) {
+    font-size: 3.7vw;
+  }
 }
 .mod3dark {
   color: rgb(233, 240, 243);
@@ -146,8 +157,10 @@
   width: 50%;
   padding: 10px;
   transition: 500ms ease-in-out;
+  @media only screen and (max-width: 500px) {
+    font-size: 3.7vw;
+  }
 }
-
 
 .icon-bar {
   position: fixed;
@@ -170,18 +183,16 @@
 }
 
 .facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
   width: 100px;
   height: 100px;
 }
 
 .twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
-
-
 
 .linkedin {
   background: #007bb5;

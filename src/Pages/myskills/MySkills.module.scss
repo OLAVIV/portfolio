@@ -171,3 +171,17 @@
         width: 60%;
     }
 }
+.mobdark {
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    transition: 500ms ease-in-out;
+}
+.moblight {
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    transition: 500ms ease-in-out;
+}

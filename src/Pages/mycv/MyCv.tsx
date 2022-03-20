@@ -53,6 +53,7 @@ const MyCv: React.FC<MyCvProps> = () => {
       <div className={useDarkmode ? styles.mod3dark : styles.mod3light}>
         <div>
           <Link to='/myskills' className={useDarkmode ? styles.anchordark : styles.anchorlight} >My Skills</Link>
+          Skillbar only visible in desktop and tablet mode.
         </div>
       </div>
       <div className={useDarkmode ? styles.mod2dark : styles.mod2light}>

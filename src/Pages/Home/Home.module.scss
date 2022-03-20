@@ -5,7 +5,7 @@
     overflow: hidden;
     transition: 500ms ease-in-out;
     @media only screen and (max-width: 1000px) {
-        height: 80vh;
+        height: 90vh;
     }
     @media only screen and (max-width: 450px) {
         height: 100%;
@@ -18,7 +18,7 @@
     overflow: hidden;
     transition: 500ms ease-in-out;
     @media only screen and (max-width: 1000px) {
-        height: 80vh;
+        height: 90vh;
     }
     @media only screen and (max-width: 450px) {
         height: 100%;
@@ -27,13 +27,6 @@
 
 .dark img,
 .light img {
-    // margin-top: 0px;
-    // max-width: 550px;
-    // max-height: 550px;
-    // margin-left: 50px;
-    // padding-left: 46px;
-    // padding-bottom: 20px;
-    // padding-top: 80px;
     margin-top: 70px;
     max-width: 25%;
     max-height: 25%;
