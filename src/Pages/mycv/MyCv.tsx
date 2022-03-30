@@ -62,14 +62,6 @@ const MyCv: React.FC<MyCvProps> = () => {
       <div>
         <Link to='/' className={useDarkmode ? styles.anchordark : styles.anchorlight} >Back</Link>
       </div>
-      <div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <div className={styles.iconbar}>
-          <a href="https://www.facebook.com/profile.php?id=100014648943769" target="_blank" rel="noreferrer" className="facebook"><i className="fa fa-facebook" /></a><br />
-          <a href="https://twitter.com/kurki_olavi" target="_blank" rel="noreferrer" className="twitter"><i className="fa fa-twitter" /></a><br />
-          <a href="https://www.linkedin.com/in/olavi-kurki-090ab2234/" target="_blank" rel="noreferrer" className="linkedin"><i className="fa fa-linkedin" /></a><br />
-        </div>
-      </div>
     </div>
 
   )

@@ -1,11 +1,11 @@
 .dark {
     background-color: rgb(20, 19, 19);
     color: rgb(233, 240, 243);
-    height: 79.5vh;
+    height: 105vh;
     overflow: hidden;
     transition: 500ms ease-in-out;
     @media only screen and (max-width: 1000px) {
-        height: 87vh;
+        height: 95vh;
     }
     @media only screen and (max-width: 450px) {
         height: 80vh;
@@ -14,11 +14,11 @@
 .light {
     background-color: rgb(233, 240, 243);
     color: black;
-    height: 79.5vh;
+    height: 105vh;
     overflow: hidden;
     transition: 500ms ease-in-out;
     @media only screen and (max-width: 1000px) {
-        height: 87vh;
+        height: 95vh;
     }
     @media only screen and (max-width: 450px) {
         height: 80vh;
